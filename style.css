@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", "roboto";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(29, 26, 26);
+}
+p {
+  color: #555;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+  border-radius: 10px;
+}
+.col-2 h2 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px;
+}
+.btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: #563434;
+}
+.header {
+  background: radial-gradient(rgb(175, 124, 124), #979e2f);
+}
+.header .row {
+  margin-top: 70px;
+}
+.new-collection {
+  text-align: center;
+  text-shadow: #d82fc1;
+  color: rgb(255, 81, 0);
+  font-size: 40px;
+  max-width: 100%;
+}
+.categories {
+  margin: 70px 0;
+  background: radial-gradient(rgb(172, 111, 111), #4b4836);
+}
+.co-3 {
+  flex-basis: 25%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 250px;
+  height: 300px;
+}
+.featured-product {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 30 bpx;
+  background: radial-gradient(rgb(117, 92, 92), #6b6a64);
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+  transform: 0.5s;
+}
+p {
+  color: #050505;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.title {
+  text-emphasis: none;
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #151615;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.col-4 p {
+  font-size: 14px;
+}
+.col-4:hover {
+  transform: translateY(-5%);
+}
